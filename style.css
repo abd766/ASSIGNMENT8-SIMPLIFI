@@ -1,0 +1,85 @@
+body {
+	background: linear-gradient(-45deg, #0F2027, #2C5364, #203A43, #0F2027);
+	animation: gradient 15s ease infinite;
+	font-family: Arial, sans-serif;
+  }
+  
+  form {
+	margin: 0 auto;
+	max-width: 500px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	background-color: #1a1a1a;
+  }
+  
+  h1 {
+	color: #fff;
+	text-align: center;
+  }
+  
+  label {
+	display: block;
+	margin-top: 10px;
+	color: #fff;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="password"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: #333;
+	color: #fff;
+  }
+  
+  input[type="checkbox"] {
+	margin-top: 10px;
+	margin-right: 5px;
+  }
+  
+  .error {
+	border: 1px solid red;
+  }
+  
+  .error-message {
+	margin-top: 5px;
+	margin-bottom: 20px;
+	color: red;
+	font-size: 0.8rem;
+  }
+  
+  button[type="submit"] {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: #25a7d9;
+	color: #fff;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+  }
+  
+  button[type="submit"]:hover {
+	background-color: #1c8cb3;
+  }
+  
+  @keyframes gradient {
+	0% {
+	  background-position: 0% 50%;
+	}
+	50% {
+	  background-position: 100% 50%;
+	}
+	100% {
+	  background-position: 0% 50%;
+	}
+  }
+  
